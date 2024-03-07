@@ -46,18 +46,22 @@ To use this repository, follow these steps:
   
 ## Usage
 
-The usage of this application is to automate the creation of a README file for a project. A README file is a document that introduces, explains, or provides key information about a project. It's often the first document people read when they encounter a project on platforms like GitHub.
+The usage of this application is to automate the creation of a SVG logo file for a project. A README file is a document that introduces, explains, or provides key information about a project. It's often the first document people read when they encounter a project on platforms like GitHub.
 
 This is a step-by-step guide on how to use this application:
-1. **Install the application:** Clone or download the application to your local machine. Then, navigate to the application directory in your terminal and run npm install to install the necessary dependencies (inquirer).
+1. **Install the application:** Clone or download the application to your local machine. Then, navigate to the application directory in your terminal and run:
+  > npm install -g inquirer@8.2.4
+to install the necessary dependencies (inquirer version: 8.2.4 recommended).
+You may install the *jest DevDependency* for testing purposes if interested
+  > npm install -g jest
 
 2. **Run the application:** In the terminal, run the command node index.js to start the application.
 
-3. **Answer the prompts:** The application will prompt you with a series of questions about your project. Answer each question as accurately as possible. The questions cover the project's title, description, installation instructions, usage information, credits, license, features, contribution guidelines, test instructions, GitHub username, and email address.
+3. **Answer the prompts:** The application will prompt you with a series of questions about specific details for the logo, such as the color, shape, and any text they want to include.
 
-4. **Generate the README:** After you've answered all the questions, the application will generate a README file (README.md) based on your responses. The README will be saved in the same directory as the application.
+4. **Generate the logo:** After you've answered all the questions, the application will generate a **svg** file (logo.svg) based on your responses. The logo will be saved in the folder examples.
 
-5. **Use the README:** You can now use the generated README file for your project. You might need to make some minor edits or additions, but the bulk of the work has been done for you.
+5. **Use the logo:** You can now use the generated logo for various purposes. Because the logo is in SVG format, it can be scaled to any size without loss of quality.
 
 ## Credits
 
@@ -103,7 +107,7 @@ I'm always open to discussions and eager to help. Don't hesitate to get in touch
 
 
 
-**_Thanks for stopping!_**
+***Thanks for stopping!***
 
 ## Your Task
 
