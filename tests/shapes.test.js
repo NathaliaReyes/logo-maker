@@ -6,9 +6,6 @@ describe('Triangle', () => {
     describe('render method', () => {
         it('should return a string containing a polygon with the text from the input', () => {
             const triangle = new ShapesTriangle('abc', 'black', 'red', 'blue');
-            triangle.textColor = 'black';
-            triangle.shapeColor = 'red';
-            triangle.borderColor = 'blue';
             // Debugging purposes
             console.log(triangle.render());
             // This line removes newlines and indentation from the received string
