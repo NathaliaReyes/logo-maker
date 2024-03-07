@@ -1,6 +1,6 @@
 const ShapesTriangle = require('../lib/triangle.js');
 // const ShapesCircle = require('../lib/circle');
-// const ShapesSquare = require('../lib/square');
+const ShapesSquare = require('../lib/square');
 
 describe('Triangle', () => {
     describe('render method', () => {
@@ -15,3 +15,15 @@ describe('Triangle', () => {
         });
     });
 });
+
+describe('Square', () => {
+    describe('render method', () => {
+        it('should return a string containing the shape as: "rect" with the text from the input', () => {
+            const square = new ShapesSquare('svg', 'pink', 'black', 'yellow');
+            console.log(square.render());
+            const receivedSVG = square.render().replace(/\n\s*/g, '');
+            const expectedSVG = `<svg version="1.1" height="210" width="310" xmlns="http://www.w3.org/2000/svg"><rect x="55" y="15" width="190" height="190" style="fill:black; stroke-width:3; stroke:yellow" /><text x="150" y="125" text-anchor="middle" fill="pink" font-size="60px" font-family="Helvetica">svg</text></svg>`;
+            expect(receivedSVG).toEqual(expectedSVG);
+        })
+    })
+})
