@@ -10,7 +10,7 @@ This project involves creating a Node.js command-line application that interacts
 This is a great tool for developers looking to save time and money on logo design. By using this application, developers can generate their own logos without needing to hire a graphic designer, making it a cost-effective solution for personal and professional projects.
 
 This is the link to the video walkthrough:  
-🔗[Video Walkthrough]()
+🔗[Video Walkthrough](https://drive.google.com/file/d/1Fd6tfTjpa1cjc4CcwKTcEsbB9k7LhC1P/view?usp=sharing)
 
 ## Table of Contents
 - [📎 SVG-logo-maker](#-svg-logo-maker)
