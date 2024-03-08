@@ -36,7 +36,6 @@ describe('Square', () => {
             const result = square.render();
             expect(result).toContain('<rect x="55" y="15" width="190" height="190" style="fill:#FE6BFE; stroke-width:3; stroke:#351919" />')
             expect(result).toContain('<text x="150" y="125" text-anchor="middle" fill="maroon" font-size="60px" font-family="Helvetica">edx</text>');
-          
         });
     });
 });
